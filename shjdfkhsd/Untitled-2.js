@@ -12,11 +12,11 @@ function login() {
         if (accountValue === 's123456' &&
             passwordValue === '123456') {
             resultOutput.style.color = '#0f0'
-            resultOutput.innerText = '嗨，歡迎 JS 20   分鐘'
+            window.location.href = 'https://jackyhoi.github.io/fsfdf.github.io/shjdfkhsd/clock.html';
         } else {
             resultOutput.style.color = '#f00'
             resultOutput.innerText = '請用戶帳號是否正確'
         }
     }, 2000)
 }
-loginButton.addEventListener('click', login)// JavaScript Document
+loginButton.addEventListener('click', login) // JavaScript Document
