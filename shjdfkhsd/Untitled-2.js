@@ -15,8 +15,8 @@ function login() {
             window.location.href = 'https://sites.google.com/view/dfgdfddddwqq/%E4%BB%A3%E6%89%93%E7%B3%BB%E7%B5%B1';
 
         } else
-        if (accountValue === 's123456' &&
-            passwordValue === '1234567') {
+        if (accountValue === 'hoikahei' &&
+            passwordValue === '070608') {
             resultOutput.style.color = '#0f0'
             window.location.href = 'https://sites.google.com/view/dfgdfddddwqq/%E4%BB%A3%E6%89%93%E7%B3%BB%E7%B5%B1';
         } else {
