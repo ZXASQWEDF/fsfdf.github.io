@@ -13,10 +13,17 @@ function login() {
             passwordValue === '123456') {
             resultOutput.style.color = '#0f0'
             window.location.href = 'https://sites.google.com/view/dfgdfddddwqq/%E4%BB%A3%E6%89%93%E7%B3%BB%E7%B5%B1';
+
+        } else
+        if (accountValue === 's123456' &&
+            passwordValue === '1234567') {
+            resultOutput.style.color = '#0f0'
+            window.location.href = 'https://sites.google.com/view/dfgdfddddwqq/%E4%BB%A3%E6%89%93%E7%B3%BB%E7%B5%B1';
         } else {
             resultOutput.style.color = '#f00'
             resultOutput.innerText = '請用戶帳號是否正確'
         }
     }, 2000)
 }
+
 loginButton.addEventListener('click', login) // JavaScript Document
