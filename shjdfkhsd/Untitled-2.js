@@ -21,7 +21,7 @@ function login() {
             window.location.href = 'https://sites.google.com/view/hoikahei/%E4%BB%A3%E6%89%93%E7%B3%BB%E7%B5%B1';
         } else {
             resultOutput.style.color = '#f00'
-            resultOutput.innerText = '請用戶帳號是否正確'
+            resultOutput.innerText = '帳號或密碼不正確'
         }
     }, 2000)
 }
