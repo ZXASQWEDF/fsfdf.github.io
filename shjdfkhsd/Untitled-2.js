@@ -12,7 +12,7 @@ function login() {
         if (accountValue === 's123456' &&
             passwordValue === '123456') {
             resultOutput.style.color = '#0f0'
-            window.location.href = 'https://sites.google.com/view/dfgdfddddwqq/%E4%BB%A3%E6%89%93%E7%B3%BB%E7%B5%B1';
+            window.location.href = '/Users/hkh/Downloads/shjdfkhsd/ppp.html';
 
         } else
         if (accountValue === 'hoikahei' &&

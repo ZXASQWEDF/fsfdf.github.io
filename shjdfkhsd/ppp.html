@@ -2,7 +2,7 @@
 
 <head>
     <meta charset="utf-8">
-    <title>CSS 网页布局 - 菜鸟教程(runoob.com)</title>
+    <title>接單</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <style>
         * {
@@ -15,7 +15,7 @@
         /* 头部样式 */
         
         .header {
-            background-color: #f1f1f1;
+            background-color: #00FFFF;
             padding: 20px;
             text-align: center;
         }
@@ -41,58 +41,72 @@
             background-color: #ddd;
             color: black;
         }
-        /* 下拉按钮样式 */
-        
-        .dropbtn {
-            background-color: #4CAF50;
-            color: white;
-            padding: 16px;
-            font-size: 16px;
-            border: none;
-            cursor: pointer;
-        }
-        /* 容器 <div> - 需要定位下拉内容 */
-        
-        .dropdown {
-            position: relative;
-            display: inline-block;
-        }
-        /* 下拉内容 (默认隐藏) */
-        
-        .dropdown-content {
-            display: none;
-            position: absolute;
-            background-color: #f9f9f9;
-            min-width: 160px;
-            box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
-        }
-        /* 下拉菜单的链接 */
-        
-        .dropdown-content a {
-            color: black;
-            padding: 12px 16px;
-            text-decoration: none;
-            display: block;
-        }
-        /* 鼠标移上去后修改下拉菜单链接颜色 */
-        
-        .dropdown-content a:hover {
-            background-color: #f1f1f1
-        }
-        /* 在鼠标移上去后显示下拉菜单 */
-        
-        .dropdown:hover .dropdown-content {
-            display: block;
-        }
-        /* 当下拉内容显示后修改下拉按钮的背景颜色 */
-        
-        .dropdown:hover .dropbtn {
-            background-color: #3e8e41;
-        }
         
         h2 {
-            top: 30px;
-            right: 5px;
+            position: absolute;
+            left: 1260px;
+            top: 1px;
+            width: 300px;
+            height: 100px;
+            padding: 3px;
+            background-color: #FF0000;
+            box-shadow: 10px 10px rgb(36, 34, 46);
+            color: #CCFF33;
+            font-size: 23px
+        }
+        
+        p {
+            border: 2px solid #a1a1a1;
+            padding: 10px 40px;
+            background: #dddddd;
+            width: 300px;
+            border-radius: 25px;
+        }
+        
+        .button {
+            display: inline-block;
+            border-radius: 4px;
+            background-color: #f4511e;
+            border: none;
+            color: #FFFFFF;
+            text-align: center;
+            font-size: 18px;
+            padding: 12px;
+            width: 200px;
+            transition: all 0.5s;
+            cursor: pointer;
+            margin: 5px;
+        }
+        
+        .button span {
+            cursor: pointer;
+            display: inline-block;
+            position: relative;
+            transition: 0.5s;
+        }
+        
+        .button span:after {
+            content: '»';
+            position: absolute;
+            opacity: 0;
+            top: 0;
+            right: -20px;
+            transition: 0.5s;
+        }
+        
+        .button:hover span {
+            padding-right: 25px;
+        }
+        
+        .button:hover span:after {
+            opacity: 1;
+            right: 0;
+        }
+        
+        .button {
+            padding-left: 0;
+            padding-right: 0;
+            width: 100%;
         }
     </style>
 </head>
@@ -104,17 +118,18 @@
     </div>
     <div class="topnav">
         <a href="#">主頁</a>
-        <a href="#">fgdgdfg</a>
+        <a href="#">單子</a>
         <a href="#">我的</a>
     </div>
-    <center>
-        <div class="dropdown">
-            <button class="dropbtn">下拉菜单</button>
-            <div class="dropdown-content">
-                <a href="#">菜鸟教程 1</a>
-                <a href="#">菜鸟教程 2</a>
-                <a href="#">菜鸟教程 3</a>
-    </center>
+    <h2>
+        賬號：杜麒俊<br> 金額：151
+        <br> 凍結：0
+        <br>
+    </h2>
+    <p>
+        你暫時沒有接單
+    </p>
+    <button class="button" style="vertical-align:middle"><a href=/Users/hkh/Downloads/shjdfkhsd/Untitled-1.html><span>登出</span></a></button>
 </body>
 
 </html>

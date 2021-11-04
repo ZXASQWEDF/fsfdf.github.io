@@ -1,0 +1,33 @@
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>註冊</title>
+    <style>
+        h3 {
+            border: 2px solid #a1a1a1;
+            padding: 10px 40px;
+            background: #dddddd;
+            width: 300px;
+            border-radius: 25px;
+        }
+    </style>
+</head>
+<h2>
+    <center>微信ID
+        <p>||</p>
+        <p id="copy"> Jacky20070608</p>
+        <button type="button" onclick="copyEvent('copy')">Copy</button>
+
+        <script>
+            function copyEvent(id) {
+                var str = document.getElementById(id);
+                window.getSelection().selectAllChildren(str);
+                document.execCommand("复制")
+            }
+        </script>
+    </center>
+</h2>
+<h3>
+    注意‼<br> 註冊完成後將會在1～2小時完成
+</h3>
