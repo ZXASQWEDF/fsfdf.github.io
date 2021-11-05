@@ -1,0 +1,36 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-size: 16px;
+}
+
+.wrap {
+    width: 400px;
+    height: 100px;
+    margin: 50px auto;
+}
+
+.times {
+    line-height: 100px;
+    text-align: center;
+    background-color: #E0FFFF;
+    box-shadow: 0 0 3px blue;
+}
+
+.times .day,
+.times .hours,
+.times .minutes,
+.times .seconds {
+    width: 40px;
+    height: 40px;
+    display: inline-block;
+    background-color: Violet;
+    line-height: 40px;
+    box-shadow: 0 0 3px #ccc;
+}
+
+.times .hours,
+.times .minutes,
+.times .seconds {
+    margin-left: 10px;
+}
