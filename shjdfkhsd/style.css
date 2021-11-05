@@ -11,8 +11,8 @@ body {
 .container-clock {
     /* 置中 */
     position: absolute;
-    top: 10%;
-    left: 80%;
+    top: 33%;
+    left: 60%;
     transform: translate(-50%, -50%);
     background-color: transparent;
     border: 3px solid lightgreen;
