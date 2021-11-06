@@ -22,7 +22,7 @@ window.onload = function() {
 
 
         //结束时间;
-        var endTime = new Date("2021/11/6 34:00:00");
+        var endTime = new Date("2021/11/7 4:00:00");
 
         //现在时间;
         var now = new Date();
