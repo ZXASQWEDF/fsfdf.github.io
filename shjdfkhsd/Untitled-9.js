@@ -8,7 +8,7 @@ document.onkeypress = retime; //当鼠标点击重新获取当前时间放入变
 if (currentUrl == gourl) {
     clearInterval("checkTime()");
 } else {
-    setInterval("checkTime()", 100000); //每间隔1000毫秒执行checkTime函数检查是否超时
+    setInterval("checkTime()", 1000); //每间隔1000毫秒执行checkTime函数检查是否超时
 }
 
 function retime() {
